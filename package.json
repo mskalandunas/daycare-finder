@@ -1,5 +1,5 @@
 {
-  "name": "daycare-finder",
+  "name": "solstice",
   "version": "0.1.0",
   "description": "Find a daycare along your way to work.",
   "main": "webpack.config.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mskalandunas/daycare-finder.git"
+    "url": "git+https://github.com/mskalandunas/solstice.git"
   },
   "author": "Mike Skalandunas <mskalandunas@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mskalandunas/daycare-finder/issues"
+    "url": "https://github.com/mskalandunas/solstice/issues"
   },
-  "homepage": "https://github.com/mskalandunas/daycare-finder#readme",
+  "homepage": "https://github.com/mskalandunas/solstice#readme",
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
