@@ -1,0 +1,98 @@
+/*
+  Background Colors
+  normal: #fff;
+  slight darker: #f8f8f8;
+
+  purple: #8a8acb;
+  blue: #3887be;
+  other blue: #3bb2d0;
+  dark blue: #50667f;
+  orange: #f9886c;
+  green: #56b881;
+
+  Font Colors
+  Faded link: rgba(255,255,255,.5);
+  Dark: rgba(0,0,0,0.75);
+  Other: #404040;
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0,0,0,0.75);
+  margin: 0;
+}
+
+/* Colors */
+.text-color-faded {
+  color: rgba(255,255,255,.5);
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+/* Header */
+.title {
+  font-weight: 700;
+}
+
+/* Footer */
+.footer a:not(.icon) {
+  color: #474c52;
+  font-size: 12px;
+  border-bottom: 0px;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: #1fc8db;
+}
+
+.hero {
+  opacity: .8;
+}
+
+footer .container div div p .github:hover,
+footer .container div div p .github:focus,
+footer .container div div p .github:active {
+  color: #4078c0;
+}
+
+footer .container div div p .instagram:hover,
+footer .container div div p .instagram:focus,
+footer .container div div p .instagram:active {
+  color: #125688;
+}
+
+footer .container div div p .medium:hover,
+footer .container div div p .medium:focus,
+footer .container div div p .medium:active {
+  color: #00ab6b;
+}
+
+footer .container div div p .soundcloud:hover,
+footer .container div div p .soundcloud:focus,
+footer .container div div p .soundcloud:active {
+  color: #f50;
+}
+
+footer .container div div p .twitter:hover,
+footer .container div div p .twitter:focus,
+footer .container div div p .twitter:active {
+  color: #00aced;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer-header {
+  font-weight: 700;
+  color: #474c52;
+}
+
+/*footer .fa {
+  font-size: 14px;
+  vertical-align: baseline;
+}*/
