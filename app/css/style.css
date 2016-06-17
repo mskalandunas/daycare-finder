@@ -31,6 +31,10 @@ body {
   color: #fff;
 }
 
+.text-color-faded {
+  color: rgba(255, 255, 255, .5);
+}
+
 /* Header */
 .title {
   font-weight: 700;
@@ -53,6 +57,28 @@ body {
   opacity: .8;
 }
 
+/*.footer-list-header {
+  line-height: 22px;
+}*/
+
+.footer-list-header li {
+  line-height: 22px;
+  padding: 5px 0;
+}
+
+.footer-list-header li, p {
+  font-weight: 700;
+}
+
+.footer-list-header li:first-child {
+  color: #fff;
+  font-size: 1.25em;
+}
+
+.footer-list-header li:nth-child(n + 2), p {
+  color: rgba(255,255,255,.5);
+}
+
 footer .container div div p .github:hover,
 footer .container div div p .github:focus,
 footer .container div div p .github:active {
@@ -65,34 +91,12 @@ footer .container div div p .instagram:active {
   color: #125688;
 }
 
-footer .container div div p .medium:hover,
-footer .container div div p .medium:focus,
-footer .container div div p .medium:active {
-  color: #00ab6b;
-}
-
-footer .container div div p .soundcloud:hover,
-footer .container div div p .soundcloud:focus,
-footer .container div div p .soundcloud:active {
-  color: #f50;
-}
-
 footer .container div div p .twitter:hover,
 footer .container div div p .twitter:focus,
 footer .container div div p .twitter:active {
   color: #00aced;
 }
 
-footer {
-  text-align: center;
+.fa {
+  color: #fff;
 }
-
-.footer-header {
-  font-weight: 700;
-  color: #474c52;
-}
-
-/*footer .fa {
-  font-size: 14px;
-  vertical-align: baseline;
-}*/

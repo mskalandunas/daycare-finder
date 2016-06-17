@@ -11,7 +11,9 @@ import SectionComponent from './js/components/section-component';
 
 const App = () => (
   <div>
-    <HeaderComponent/>
+    <SectionComponent/>
+    <SectionComponent/>
+    <SectionComponent/>
     <SectionComponent/>
     <FooterComponent/>
   </div>
