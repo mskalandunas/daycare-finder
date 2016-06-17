@@ -6672,6 +6672,7 @@ a.panel-block:hover {
 }
 
 .footer a:not(.icon), .footer a:visited:not(.icon) {
+  color: rgba(255,255,255,.5);
   border-bottom: 1px solid #d3d6db;
 }
 

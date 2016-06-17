@@ -12,9 +12,7 @@ import SectionComponent from './js/components/section-component';
 const App = () => (
   <div>
     <HeaderComponent/>
-
     <SectionComponent/>
-
     <FooterComponent/>
   </div>
 );
