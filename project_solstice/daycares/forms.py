@@ -9,4 +9,6 @@ class DaycareForm(ModelForm):
         """Meta."""
         model = Daycare
 
+        exclude = []
+
 
