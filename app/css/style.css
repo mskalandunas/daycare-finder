@@ -17,14 +17,15 @@
 */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Nunito', sans-serif;*/
   color: rgba(0,0,0,0.75);
   margin: 0;
 }
 
 /* Colors */
 .footer a:not(.icon) {
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.75);
 }
 
 .text-color-white {
@@ -32,7 +33,7 @@ body {
 }
 
 .text-color-faded {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .75);
 }
 
 /* Header */
@@ -77,6 +78,15 @@ body {
 
 .footer-list-header li:nth-child(n + 2), p {
   color: rgba(255,255,255,.5);
+}
+
+.footer-icon-list li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.footer-icon-list li .fa {
+  font-size: 30px;
 }
 
 footer .container div div p .github:hover,
