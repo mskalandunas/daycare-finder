@@ -2,8 +2,7 @@
   Background Colors
   normal: #fff;
   slight darker: #f8f8f8;
-
-  purple: #8a8acb;
+  purple: #4f4fb0;
   blue: #3887be;
   other blue: #3bb2d0;
   dark blue: #50667f;
@@ -17,12 +16,11 @@
 */
 
 html {
-  background-color: #8a8acb;
+  background-color: #4f4fb0;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  /*font-family: 'Nunito', sans-serif;*/
   color: rgba(0,0,0,0.75);
   margin: 0;
 }
@@ -64,7 +62,7 @@ body {
 }
 
 .footer-list-header li, p {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .footer-list-header li:first-child {

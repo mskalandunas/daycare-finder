@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 const FooterComponent = React.createClass({
   render: () => {
     return (
-      <section className="footer is-primary" style={{paddingBottom: '40px', backgroundColor: '#8a8acb'}}>
+      <section className="footer is-primary" style={{paddingBottom: '40px', backgroundColor: '#4f4fb0'}}>
         <div className="container">
           <div className="columns">
             <div className="column is-2">
@@ -29,7 +29,7 @@ const FooterComponent = React.createClass({
             <div className="column is-4">
               <ul className="footer-list-header">
                 <li>Baby Dump</li>
-                <p>7485 Cherry Blossom Ln.</p>
+                <p style={{paddingTop: '10px'}}>7485 Cherry Blossom Ln.</p>
                 <p>Tuscaloosa, WY 82061</p>
                 <p>(307) 417-1928</p>
                 <p><a href="mailto:hello@babydump.io" target="_blank">hello@babydump.io</a></p>
