@@ -5,61 +5,47 @@ const HeaderComponent = React.createClass({
   render: () => {
     return (
       <section>
-        {/*
-        <nav className="nav" style={{position: 'fixed', width: '100%', backgroundColor: 'rgba(255,255,255,.5)'}}>
+        <nav className="nav" style={{position: 'fixed', width: '100%'}}>
+
           <div className="nav-left">
             <a className="nav-item" href="#">
-              <img src="/images/bulma.png" alt="Bulma logo}"/>
+              {/*  <h1>Baby Dump</h1>           */}
             </a>
           </div>
 
-          <div className="nav-center">
-            <a className="nav-item" href="#">
-              <span className="icon">
-                <i className="fa fa-github"></i>
-              </span>
-            </a>
-            <a className="nav-item" href="#">
-              <span className="icon">
-                <i className="fa fa-twitter"></i>
-              </span>
-            </a>
-          </div>
-
+          {/*
           <span className="nav-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span>hi 1</span>
+            <span>hi 2</span>
+            <span>hi 3</span>
           </span>
+          */}
 
           <div className="nav-right nav-menu">
             <a className="nav-item" href="#">
-              Home
+              Schools&nbsp;&amp;&nbsp;Daycares
             </a>
             <a className="nav-item" href="#">
-              Documentation
+              Parents
             </a>
             <a className="nav-item" href="#">
-              Blog
+              Our&nbsp;Mission
+            </a>
+            <a className="nav-item" href="#">
+              Who&nbsp;We&nbsp;Are
             </a>
 
+
             <span className="nav-item">
-              <a className="button" >
-                <span className="icon">
-                  <i className="fa fa-twitter"></i>
-                </span>
-                <span>Tweet</span>
+              <a className="button is-primary is-inverted" >
+                <span>Sign-in</span>
               </a>
               <a className="button is-primary" href="#">
-                <span className="icon">
-                  <i className="fa fa-download"></i>
-                </span>
-                <span>Download</span>
+                <span>Join</span>
               </a>
             </span>
           </div>
         </nav>
-      */}
 
 
         <header className="hero is-fullheight">

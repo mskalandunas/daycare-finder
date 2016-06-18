@@ -1,6 +1,10 @@
 import './css/bulma.css';
 import './css/style.css';
 
+// Scripts
+// import './js/scripts/classie';
+// import './js/scripts/navbar';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -12,6 +16,11 @@ import SectionComponent from './js/components/section-component';
 const App = () => (
   <div>
     <HeaderComponent/>
+    <SectionComponent/>
+    <SectionComponent/>
+    <SectionComponent/>
+    <SectionComponent/>
+    <SectionComponent/>
     <FooterComponent/>
   </div>
 );

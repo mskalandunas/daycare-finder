@@ -18,7 +18,6 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  /*color: rgba(0,0,0,0.75);*/
   margin: 0;
 }
 
@@ -32,6 +31,11 @@ body {
 }
 
 /* Header */
+.nav-item a, a.nav-item {
+  color: #4f4fb0;
+  font-weight: 600;
+}
+
 .title {
   font-weight: 700;
   line-height: 30px;

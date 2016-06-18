@@ -992,12 +992,15 @@ a.box:active {
 /* Purple */
 .button.is-primary {
   background: #4f4fb0;
-  border-color: transparent;
   color: white;
+  padding: 20px;
+  font-weight: 600;
+  border: 2px solid #4f4fb0;
+  border-radius: .25em;
 }
 
 .button.is-primary:hover, .button.is-primary:focus, .button.is-primary.is-active {
-  background: #199fae;
+  background: #7272c0;
   border-color: transparent;
   color: white;
 }
@@ -1009,6 +1012,7 @@ a.box:active {
 .button.is-primary.is-inverted {
   background: white;
   color: #4f4fb0;
+  border: 2px solid #4f4fb0;
 }
 
 .button.is-primary.is-inverted:hover {
@@ -5087,7 +5091,7 @@ a.box:active {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
+  padding: 20px 35px;
 }
 
 .nav-item a {
