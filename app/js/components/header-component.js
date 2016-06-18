@@ -8,7 +8,7 @@ const HeaderComponent = React.createClass({
         <div className="hero-body">
           <div className="container">
             <h1 className="title">
-              Drop Baby
+              Baby Dump
             </h1>
             <h2 className="subtitle">
               Find a daycare that works for you.
