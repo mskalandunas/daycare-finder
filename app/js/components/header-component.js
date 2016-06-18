@@ -9,7 +9,7 @@ const HeaderComponent = React.createClass({
 
           <div className="nav-left">
             <a className="nav-item" href="#">
-              {/*  <h1>Baby Dump</h1>           */}
+              <h1 className="logo">Baby Dump</h1>
             </a>
           </div>
 
@@ -53,7 +53,6 @@ const HeaderComponent = React.createClass({
             <div className="container">
               <div className="columns">
                 <div className="column is-6">
-                  <h1 className="title">Baby Dump</h1>
                   <h2 className="subtitle">The easiest way to find a convenient &amp; high-quality daycare for your kids.</h2>
                 </div>
               </div>

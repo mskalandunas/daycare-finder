@@ -36,6 +36,15 @@ body {
   font-weight: 600;
 }
 
+.logo {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  background: -webkit-linear-gradient(bottom right, #8a8acb, #f9886c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .title {
   font-weight: 700;
   line-height: 30px;
