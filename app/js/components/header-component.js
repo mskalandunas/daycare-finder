@@ -9,6 +9,7 @@ const HeaderComponent = React.createClass({
 
           <div className="nav-left">
             <a className="nav-item" href="#">
+              <img src="/img/balloon.png" style={{paddingRight: '5px'}} />
               <h1 className="logo">Baby Dump</h1>
             </a>
           </div>
