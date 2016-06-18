@@ -16,18 +16,18 @@
   Other: #404040;
 */
 
+html {
+  background-color: #8a8acb;
+}
+
 body {
-  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   /*font-family: 'Nunito', sans-serif;*/
   color: rgba(0,0,0,0.75);
   margin: 0;
 }
 
 /* Colors */
-.footer a:not(.icon) {
-  color: rgba(255,255,255,.75);
-}
-
 .text-color-white {
   color: #fff;
 }
@@ -43,67 +43,72 @@ body {
 
 /* Footer */
 .footer a:not(.icon) {
-  color: #474c52;
-  font-size: 12px;
   border-bottom: 0px;
+  color: #fff;
+  font-weight: 700;
 }
 
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-  color: #1fc8db;
+  color: rgba(255,255,255,.75);
 }
 
 .hero {
   opacity: .8;
 }
 
-/*.footer-list-header {
-  line-height: 22px;
-}*/
-
 .footer-list-header li {
   line-height: 22px;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .footer-list-header li, p {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .footer-list-header li:first-child {
   color: #fff;
   font-size: 1.25em;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .footer-list-header li:nth-child(n + 2), p {
   color: rgba(255,255,255,.5);
+  font-size: 16px;
 }
 
 .footer-icon-list li {
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .footer-icon-list li .fa {
   font-size: 30px;
 }
 
-footer .container div div p .github:hover,
-footer .container div div p .github:focus,
-footer .container div div p .github:active {
+.footer-icon-list li a .fa-facebook:hover,
+.footer-icon-list li a .fa-facebook:focus,
+.footer-icon-list li a .fa-facebook:active {
+  color: #3b5998;
+}
+
+.footer-icon-list li a .fa-github:hover,
+.footer-icon-list li a .fa-github:focus,
+.footer-icon-list li a .fa-github:active {
   color: #4078c0;
 }
 
-footer .container div div p .instagram:hover,
-footer .container div div p .instagram:focus,
-footer .container div div p .instagram:active {
+.footer-icon-list li a .fa-instagram:hover,
+.footer-icon-list li a .fa-instagram:focus,
+.footer-icon-list li a .fa-instagram:active {
   color: #125688;
 }
 
-footer .container div div p .twitter:hover,
-footer .container div div p .twitter:focus,
-footer .container div div p .twitter:active {
+.footer-icon-list li a .fa-twitter:hover,
+.footer-icon-list li a .fa-twitter:focus,
+.footer-icon-list li a .fa-twitter:active {
   color: #00aced;
 }
 
