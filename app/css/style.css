@@ -2,7 +2,8 @@
   Background Colors
   normal: #fff;
   slight darker: #f8f8f8;
-  purple: #4f4fb0;
+  light purple: #8a8acb;
+  dark purple: #4f4fb0;
   blue: #3887be;
   other blue: #3bb2d0;
   dark blue: #50667f;
@@ -15,13 +16,9 @@
   Other: #404040;
 */
 
-html {
-  background-color: #4f4fb0;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
-  color: rgba(0,0,0,0.75);
+  /*color: rgba(0,0,0,0.75);*/
   margin: 0;
 }
 
@@ -37,6 +34,13 @@ body {
 /* Header */
 .title {
   font-weight: 700;
+  line-height: 30px;
+  color: #4f4fb0;
+}
+
+.subtitle {
+  line-height: 25px;
+  color: #8a8acb;
 }
 
 /* Footer */
@@ -86,28 +90,11 @@ body {
   font-size: 30px;
 }
 
-.footer-icon-list li a .fa-facebook:hover,
-.footer-icon-list li a .fa-facebook:focus,
-.footer-icon-list li a .fa-facebook:active {
-  color: #3b5998;
-}
-
-.footer-icon-list li a .fa-github:hover,
-.footer-icon-list li a .fa-github:focus,
-.footer-icon-list li a .fa-github:active {
-  color: #4078c0;
-}
-
-.footer-icon-list li a .fa-instagram:hover,
-.footer-icon-list li a .fa-instagram:focus,
-.footer-icon-list li a .fa-instagram:active {
-  color: #125688;
-}
-
-.footer-icon-list li a .fa-twitter:hover,
-.footer-icon-list li a .fa-twitter:focus,
-.footer-icon-list li a .fa-twitter:active {
-  color: #00aced;
+.footer-icon-list li .fa:active,
+.footer-icon-list li .fa:focus,
+.footer-icon-list li .fa:hover {
+  color: rgba(255,255,255,.75);
+  font-size: 30px;
 }
 
 .fa {
