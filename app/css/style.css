@@ -36,11 +36,15 @@ body {
   font-weight: 600;
 }
 
+.nav {
+  background: rgba(255,255,255,.75)
+}
+
 .logo {
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
   font-size: 30px;
-  background: -webkit-linear-gradient(bottom right, #8a8acb, #f9886c);
+  background: -webkit-linear-gradient(bottom right, #8a8acb, #ff1a75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -49,11 +53,23 @@ body {
   font-weight: 700;
   line-height: 30px;
   color: #4f4fb0;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .subtitle {
   line-height: 25px;
   color: #8a8acb;
+  text-align: center;
+}
+
+.input-large {
+  height: 100%;
+}
+
+.input-no-border {
+  border: transparent;
+  box-shadow: none;
 }
 
 /* Footer */
