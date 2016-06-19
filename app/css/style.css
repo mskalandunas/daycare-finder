@@ -49,11 +49,14 @@ body {
   font-weight: 700;
   line-height: 30px;
   color: #4f4fb0;
+  text-align: center;
+
 }
 
 .subtitle {
   line-height: 25px;
   color: #8a8acb;
+  text-align: center;
 }
 
 /* Footer */

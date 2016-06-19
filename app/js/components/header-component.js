@@ -53,8 +53,33 @@ const HeaderComponent = React.createClass({
           <div className="hero-body">
             <div className="container">
               <div className="columns">
-                <div className="column is-6">
-                  <h2 className="subtitle">The easiest way to find a convenient &amp; high-quality daycare for your kids.</h2>
+                <div className="column is-2"></div>
+                <div className="column is-8">
+                  <h1 className="logo title">Baby Dump</h1>
+                  <h2 className="subtitle">The easiest way to find a convenient &amp; high-quality daycare for your kids.  Enter your address and wherever you're commuting to in the fields below.</h2>
+                </div>
+              </div>
+              <div className="columns">
+                <div className="column is-2"></div>
+                <div className="column is-8">
+                  {/*<p className="control is-horizontal is-grouped">
+                    <input className="input" type="text" placeholder="Where are you?"/>
+                    <input className="input" type="text" placeholder="Where are you going?"/> */}
+                    <div className="control is-horizontal">
+                      <div className="control is-grouped">
+                        <p className="control is-expanded">
+                          <input className="input" type="text" placeholder="Name"/>
+                        </p>
+                        <p className="control is-expanded">
+                          <input className="input" type="email" placeholder="Email"/>
+                        </p>
+
+              <a className="button is-primary" href="#">
+                <span>Search</span>
+              </a>
+
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
