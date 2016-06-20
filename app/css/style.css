@@ -70,6 +70,14 @@ body {
 .input-no-border {
   border: transparent;
   box-shadow: none;
+  padding: 11px 10px 13px;
+}
+
+.input-is-primary-focus:focus,
+.input-is-primary-focus:active {
+  border-bottom: 2px #8a8acb solid;
+  border-radius: 0;
+  padding: 11px 10px;
 }
 
 /* Footer */
