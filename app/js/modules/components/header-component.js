@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router';
 
 const HeaderComponent = React.createClass({
   render: () => {
@@ -33,12 +34,12 @@ const HeaderComponent = React.createClass({
               Who&nbsp;We&nbsp;Are
             </a>
             <span className="nav-item">
-              <a className="button is-primary is-inverted" >
+              <Link className="button is-primary is-inverted" to="/sign-in">
                 <span>Sign-in</span>
-              </a>
-              <a className="button is-primary" href="#">
+              </Link>
+              <Link className="button is-primary" to="/sign-up">
                 <span>Join</span>
-              </a>
+              </Link>
             </span>
           </div>
         </nav>

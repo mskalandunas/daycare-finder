@@ -1,32 +1,22 @@
-import './css/bulma.css';
-import './css/style.css';
+import './css/bulma.css'
+import './css/style.css'
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Router, Route, hashHistory } from 'react-router'
 
-// Components
-import HeaderComponent from './js/components/header-component';
-import FooterComponent from './js/components/footer-component';
-import SectionComponent from './js/components/section-component';
-import SignUpComponent from './js/components/sign-up-component';
-import SignInComponent from './js/components/sign-in-component';
+// Views
+import HomeView from './js/modules/home'
+import SignUpView from './js/modules/sign-up-view'
+import SignInView from './js/modules/sign-in-view'
 
 // Scripts
-import './js/scripts/search';
+import './js/scripts/search'
 
-const App = () => (
-  <div>
-    {/* Landing Page
-    <HeaderComponent/>
-    <FooterComponent/>
-    */}
-
-    {/* Sign In
-    <SignUpComponent/>
-    */}
-
-    <SignInComponent/>
-  </div>
-);
-
-ReactDOM.render(<App/>,document.getElementById('app'));
+ReactDOM.render((
+  <Router history={hashHistory}>
+    <Route path="/" component={HomeView}/>
+    <Route path="/sign-up" component={SignUpView}/>
+    <Route path="/sign-in" component={SignInView}/>
+  </Router>
+), document.getElementById('app'))

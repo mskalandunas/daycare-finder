@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const SignInComponent = React.createClass({
+const SignUpView = React.createClass({
   render: () => {
     return (
       <section>
@@ -19,8 +19,8 @@ const SignInComponent = React.createClass({
               <div className="columns">
                 <div className="column is-4"></div>
                 <div className="column is-4">
-                  <h1 className="logo title">Sign In</h1>
-                  <h2 className="subtitle">Welcome back.</h2>
+                  <h1 className="logo title">Sign Up</h1>
+                  <h2 className="subtitle">Try us out.</h2>
                 </div>
               </div>
 
@@ -29,16 +29,23 @@ const SignInComponent = React.createClass({
                 <div className="column is-4">
 
 
-                  <p className="control is-expanded">
-                    <input className="input input-large input-no-border" type="text" placeholder="address@email.com"/>
-                  </p>
+                    <p className="control is-expanded">
+                      <input className="input input-large input-no-border" type="text" placeholder="address@email.com"/>
+                    </p>
 
-                  <p className="control is-expanded">
-                    <input className="input input-large input-no-border" type="password" placeholder="••••••••"/>
-                  </p>
+                  <div className="control is-horizontal">
+                    <div className="control is-grouped">
+                      <p className="control is-expanded">
+                        <input className="input input-large input-no-border" type="password" placeholder="••••••••"/>
+                      </p>
+                      <p className="control is-expanded">
+                        <input className="input input-large input-no-border" type="password" placeholder="Confirm Password"/>
+                      </p>
+                    </div>
+                  </div>
 
                   <a className="button is-primary is-fullwidth" href="#">
-                    <span>Sign In</span>
+                    <span>Join</span>
                   </a>
 
                 </div>
@@ -53,4 +60,4 @@ const SignInComponent = React.createClass({
   }
 });
 
-export default SignInComponent;
+export default SignUpView;
