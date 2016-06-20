@@ -59,10 +59,10 @@ const HeaderComponent = React.createClass({
                   <div className="control is-horizontal">
                     <div className="control is-grouped">
                       <p className="control is-expanded">
-                        <input id="start-point" className="input input-large input-no-border" type="text" placeholder="Where are you coming from?"/>
+                        <input id="start-point" className="input input-large input-no-border input-is-primary-focus" type="text" placeholder="Where are you coming from?"/>
                       </p>
                       <p className="control is-expanded">
-                        <input id="end-point" className="input input-large input-no-border" type="email" placeholder="Where's your destination?"/>
+                        <input id="end-point" className="input input-large input-no-border input-is-primary-focus" type="email" placeholder="Where's your destination?"/>
                       </p>
                       <a className="button is-primary" href="#">
                         <span>Search</span>
