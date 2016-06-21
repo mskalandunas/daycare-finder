@@ -30,6 +30,10 @@ body {
   color: rgba(255, 255, 255, .75);
 }
 
+.fa-star, .fa-star-half {
+  color: #000;
+}
+
 /* Header */
 .nav-item a, a.nav-item {
   color: #4f4fb0;
@@ -47,6 +51,13 @@ body {
   background: -webkit-linear-gradient(bottom right, #8a8acb, #ff1a75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.logo-alt {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
 }
 
 .title {

@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 // Components
 import MinHeaderComponent from './components/min-header-component';
 
-const SignUpView = React.createClass({
+const SignIn = React.createClass({
   render: () => {
     return (
       <section>
@@ -18,8 +18,8 @@ const SignUpView = React.createClass({
               <div className="columns">
                 <div className="column is-4"></div>
                 <div className="column is-4">
-                  <h1 className="logo title">Sign Up</h1>
-                  <h2 className="subtitle">Try us out.</h2>
+                  <h1 className="logo title">Sign In</h1>
+                  <h2 className="subtitle">Welcome back.</h2>
                 </div>
               </div>
               <div className="columns">
@@ -28,20 +28,13 @@ const SignUpView = React.createClass({
                   <p className="control is-expanded">
                     <input className="input input-large input-no-border input-is-primary-focus" type="text" placeholder="address@email.com"/>
                   </p>
-                  <div className="control is-horizontal">
-                    <div className="control is-grouped">
-                      <p className="control is-expanded">
-                        <input className="input input-large input-no-border input-is-primary-focus" type="password" placeholder="••••••••"/>
-                      </p>
-                      <p className="control is-expanded">
-                        <input className="input input-large input-no-border input-is-primary-focus" type="password" placeholder="Confirm Password"/>
-                      </p>
-                    </div>
-                  </div>
+                  <p className="control is-expanded">
+                    <input className="input input-large input-no-border input-is-primary-focus" type="password" placeholder="••••••••"/>
+                  </p>
                   <a className="button is-primary is-fullwidth" href="#">
-                    <span>Join</span>
+                    <span>Sign In</span>
                   </a>
-                  <h2 className="subtitle" style={{paddingTop: '20px'}}>Have an account already?  <Link to="/sign-in">Sign in</Link>.</h2>
+                  <h2 className="subtitle" style={{paddingTop: '20px'}}>Need an account?  <Link to="/sign-up">Sign up</Link>.</h2>
                 </div>
               </div>
             </div>
@@ -52,4 +45,4 @@ const SignUpView = React.createClass({
   }
 });
 
-export default SignUpView;
+export default SignIn;
