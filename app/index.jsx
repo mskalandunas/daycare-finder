@@ -1,9 +1,11 @@
+// CSS
 import './css/bulma.css'
 import './css/style.css'
 
+// React
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, browserHistory } from 'react-router'
 
 // Views
 import HomeView from './js/modules/home'
@@ -13,8 +15,9 @@ import SignInView from './js/modules/sign-in-view'
 // Scripts
 import './js/scripts/search'
 
+// Routes & Rendering
 ReactDOM.render((
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={HomeView}/>
     <Route path="/sign-up" component={SignUpView}/>
     <Route path="/sign-in" component={SignInView}/>

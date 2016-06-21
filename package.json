@@ -1,18 +1,18 @@
 {
-  "name": "solstice",
+  "name": "baby-dump",
   "version": "0.1.0",
   "description": "Find a daycare along your way to work.",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --port 3000"
+    "start": "webpack-dev-server --port 3000 --history-api-fallback"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mskalandunas/solstice.git"
   },
-  "author": "Mike Skalandunas <mskalandunas@gmail.com>",
+  "author": "Mike Skalandunas <mskalandunas@gmail.com>, Daniel Zwelling <dzwellingmusic@gmail.com>, & David Flegal <flegal.david@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mskalandunas/solstice/issues"
@@ -31,10 +31,12 @@
     "react-addons-css-transition-group": "^15.0.2",
     "react-addons-linked-state-mixin": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-router": "^2.4.1",
     "react-tap-event-plugin": "^1.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.12.0"
-  }
+  },
+  "dependencies": {}
 }

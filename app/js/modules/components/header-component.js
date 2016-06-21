@@ -8,10 +8,10 @@ const HeaderComponent = React.createClass({
       <section>
         <nav className="nav" style={{position: 'fixed', width: '100%'}}>
           <div className="nav-left">
-            <a className="nav-item" href="#">
+            <Link className="nav-item" to="/">
               <img src="/img/balloon.png" style={{paddingRight: '5px'}} />
               <h1 className="logo">Baby Dump</h1>
-            </a>
+            </Link>
           </div>
           {/*
           <span className="nav-toggle">
