@@ -2,18 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
+// Components
+import MinHeaderComponent from './components/min-header-component';
+
 const SignUpView = React.createClass({
   render: () => {
     return (
       <section>
-        <nav className="nav" style={{position: 'fixed', width: '100%'}}>
-          <div className="nav-left">
-            <a className="nav-item" href="#">
-              <img src="/img/balloon.png" style={{paddingRight: '5px'}} />
-              <h1 className="logo">Baby Dump</h1>
-            </a>
-          </div>
-        </nav>
+
+        <MinHeaderComponent/>
+
         <header className="hero is-fullheight">
           <div className="hero-body">
             <div className="container">
