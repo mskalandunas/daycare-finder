@@ -8,9 +8,10 @@ import ReactDOM from 'react-dom'
 import { Router, Route, browserHistory } from 'react-router'
 
 // Views
-import HomeView from './js/modules/home'
-import SignUpView from './js/modules/sign-up-view'
-import SignInView from './js/modules/sign-in-view'
+import Home from './js/modules/home'
+import SignUp from './js/modules/sign-up'
+import SignIn from './js/modules/sign-in'
+import MockUserProfile from './js/modules/mock-user-profile'
 
 // Scripts
 import './js/scripts/search'
@@ -18,8 +19,9 @@ import './js/scripts/search'
 // Routes & Rendering
 ReactDOM.render((
   <Router history={browserHistory}>
-    <Route path="/" component={HomeView}/>
-    <Route path="/sign-up" component={SignUpView}/>
-    <Route path="/sign-in" component={SignInView}/>
+    <Route path="/" component={Home}/>
+    <Route path="/sign-up" component={SignUp}/>
+    <Route path="/sign-in" component={SignIn}/>
+    <Route path="/mock-user-profile" component={MockUserProfile}/>
   </Router>
 ), document.getElementById('app'))
