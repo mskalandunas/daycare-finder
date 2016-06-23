@@ -93,6 +93,24 @@ body {
   padding: 11px 10px;
 }
 
+/* Sections */
+.hero.is-primary.is-dope {
+  background-image: linear-gradient(141deg, #4f4fb0 0%, #f9886c 71%, #8a8acb 100%);
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+/* List */
+.daycare-list li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+  color: #4f4fb0;
+}
+
 /* Footer */
 .footer a:not(.icon) {
   border-bottom: 0px;
