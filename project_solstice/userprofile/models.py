@@ -8,5 +8,10 @@ class UserProfile(md.Model):
     """Extending Django User Object."""
 
     user = md.OneToOneField(settings.AUTH_USER_MODEL, related_name='profile')
-
     favorites = md.ManyToManyField(Daycare, related_name='favorited')
+
+    def __str__(self):
+        """Return string."""
+        return self.user.username
+
+
