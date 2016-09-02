@@ -23,7 +23,7 @@ const userSchema = new mongoose.Schema({
   workplace: {
     type: String,
     default: 'Where do you work?'
-  }
+  },
   auth: {
     basic: {
       username: String,
