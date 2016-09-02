@@ -18,10 +18,8 @@ const MockUserBodyComponent = React.createClass({
                   <h2 className="subtitle text-align-left">Below you'll find the care centers you've marked as your favorites.  You can also change your email address and password here.</h2>
                 </div>
               </div>
-
               <MockUserProfileComponent/>
               <MockUserRatingsComponent/>
-
             </div>
           </div>
         </header>

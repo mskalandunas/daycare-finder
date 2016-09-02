@@ -24,7 +24,7 @@ const common = {
       {
         test: /\.css$/,
         loaders: ['style', 'css'],
-        include: PATHS.app // Include accepts either a path or an array of paths.
+        include: PATHS.app
       },
       {
         test: /\.jsx?$/,
@@ -42,23 +42,16 @@ const common = {
   }
 };
 
-// Default configuration
 if(TARGET === 'start' || !TARGET){
   module.exports = merge(common, {
     devtool: 'eval-source-map',
     devServer: {
       contentBase: PATHS.build,
-
-      // Enable history API fallback so HTML5 History API
       historyApiFallback: true,
       hot: true,
       inline: true,
       progress: true,
-
-      // Display only errors to reduce the amount of output.
       stats: 'errors-only',
-
-      // Parse host and port from env so this is easy to customize.
       host: process.env.HOST,
       port: process.env.PORT
     },

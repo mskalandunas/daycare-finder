@@ -1,17 +1,16 @@
-// CSS
+'use strict'
+
 import './css/bulma.css'
 import './css/style.css'
 
-// React
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, browserHistory } from 'react-router'
 
-// Views
-import Home from './js/modules/home'
-import SignUp from './js/modules/sign-up'
-import SignIn from './js/modules/sign-in'
-import MockUserProfile from './js/modules/mock-user-profile'
+import Home from './js/views/home'
+import SignUp from './js/views/sign-up'
+import SignIn from './js/views/sign-in'
+import MockUserProfile from './js/views/mock-user-profile'
 
 // Scripts
 import './js/scripts/search'

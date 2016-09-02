@@ -65,7 +65,7 @@ const FooterComponent = React.createClass({
         <div className="container" style={{paddingTop: '40px'}}>
           <div className="content is-mobile" style={{textAlign: 'center'}}>
             <span className="text-color-faded">©2016 Made by <a className="text-color-white" href="https://github.com/dzwell" target="_blank">Daniel</a>
-            , <a className="text-color-white" href="https://github.com/flegald" target="_blank">David</a>, and&nbsp;
+            &nbsp;and&nbsp;
             <a className="text-color-white" href="https://mikeskalandunas.com" target="_blank">Mike</a>.
             </span>
           </div>
